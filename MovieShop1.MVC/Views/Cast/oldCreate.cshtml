@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Cast</h2>
+@*form tab tab*@
+<form method="post">
+    @*submit your data in the http
+        value is something the user going to enter *@
+    Name: <input type="text" name="name" id="castname" value="" /> <br />
+    Gender: <input type="text" name="gender" id="gender" value="" /> <br />
+    Tmdb Url: <input type="text" name="tmdburl" id="tmdburl" value="" /> <br />
+    Profile Path: <input type="text" name="profilePath" id="profilePath" value="" /> <br />
+
+    <input type="submit" name="save" value="Save Cast" />
+
+</form>
